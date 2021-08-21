@@ -4,7 +4,7 @@ SimpleToDo is an android app that allows building a todo list and basic todo ite
 
 Submitted by: Jeff Onyemachi
 
-Time spent: ~8 hours spent in total
+Time spent: ~7-8 hours spent in total
 
 ## User Stories
 
@@ -33,6 +33,10 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+- Outdated version of Android Studio (version 4.0.1 I believe (?)) initially prevented me from creating an AVD at all. [Solution: Do a complete uninstall/reinstall. Remove any associated directories and files that were still in C:// drive after uinstalling studio from Programs and Features. Kill all undetected process tied to the outdated version].
+- During "Step 2.2: Design", initially had an issue with my AVD to where the frame would appear, but there would be no display. [Solution: Update my SDK-Tools to the latest version]
+- After a few builds, AVD would take ages to boot up, execute basic commands, and would freeze PC. [Solution: Clear data and/OR delete and recreate AVD. With each use, the AVD consumes more space on disk, and thus takes longer to boot/operate from]
 
 ## License
 
